@@ -1,0 +1,204 @@
+/* Resetando estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho e barra de navegação */
+header {
+    background-color: #0047ab;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Banner Principal */
+.banner {
+    background: url('https://jornaldeitu.com.br/wp-content/uploads/2022/06/peryy.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 200px 20px;
+}
+
+.banner h2 {
+    font-size: 2.5em;
+}
+
+.banner p {
+    font-size: 1.2em;
+}
+
+/* Seção Sobre */
+.sobre {
+    padding: 50px 20px;
+}
+
+.sobre-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sobre-imagem {
+    flex: 3;
+    padding-right: 40px;
+}
+
+.sobre-imagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.sobre-texto {
+    flex: 2;
+    text-align: left;
+}
+
+.sobre-texto h2 {
+    font-size: 2.5em;
+    color: #0047ab;
+}
+
+.sobre-texto p {
+    font-size: 1.2em;
+    margin: 20px 0;
+    color: #333;
+}
+
+
+/* Seção de Qualidades */
+.qualidades {
+    background-color: #eaeaea;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.qualidades h2 {
+    font-size: 2.5em;
+    color: #0047ab;
+}
+
+.qualidades .qualidade {
+    margin: 20px 0;
+}
+
+.qualidades .qualidade h3 {
+    font-size: 1.8em;
+    color: #333;
+}
+
+.qualidades .qualidade p {
+    font-size: 1.1em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Seção de Notícias */
+.noticias {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.noticias h2 {
+    font-size: 2.5em;
+    color: #0047ab;
+}
+
+.noticias p {
+    font-size: 1.2em;
+}
+
+/* Estilo para a notícia */
+.noticia {
+    margin: 30px 0;
+}
+
+.noticia a {
+    text-decoration: none;
+    color: #0047ab;
+    transition: color 0.3s ease;
+}
+
+.noticia a:hover {
+    color: #002d73;
+}
+
+.noticia img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.noticia h3 {
+    font-size: 1.8em;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .footer-content ul {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+footer .footer-content ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer .footer-content ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .footer-content ul li a:hover {
+    text-decoration: underline;
+}
